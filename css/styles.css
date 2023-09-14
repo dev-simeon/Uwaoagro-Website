@@ -11,6 +11,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    font-size: 15px;
     background-color: var(--bg-primary);
     color: var(--bg-secondary);
 }
@@ -33,11 +34,15 @@ body{
 }
 
 .text-small{
-    font-size: 0.875rem;
+    font-size: calc(1rem - 3px);
 }
 
 .text-primary{
     color: var(--text-white) !important;
+}
+
+.text-dark{
+    color: var(--bg-secondary) !important;
 }
 
 .bg-primary{
@@ -49,8 +54,8 @@ body{
 }
 
 #home{
-    background-image: url(../images/hero-image.svg);
-    background-position: center;
+    background-image: url(../images/hero-img-overlay.svg);
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
     height: 75vh;
@@ -85,10 +90,11 @@ body{
 
 #products{
     background-color: #F8F8FA;
-    background-image: url(../images/SVG\ by\ MagicPattern.design\ \(2\).svg);
+    background-image: url(../images/product-bg-image.svg);
     background-size: 45%;
     background-repeat: no-repeat;
     background-position: 97% 52%;
+    background-attachment: fixed;
 }
 
 .product-content{
@@ -115,8 +121,62 @@ footer{
     background-color: var(--bg-secondary);
     padding-top: 3.75rem;
     padding-bottom: 3.75rem;
-    background-image: url(../images/Rectangle\ 5.svg);
-    background-size: 20%;
+    background-image: url(../images/footer-bg-image.svg), url(../images/footer-bg-image2.svg);
     background-repeat: no-repeat;
-    background-position: 39.4% -8.375rem;
+    background-position: 39.4% -8.375rem, 63% 5rem;
+}
+
+
+
+
+
+
+
+
+
+/***************************************** Mobile Design *******************************************/
+
+
+@media screen and (max-width: 992px) {
+    .hero-text{
+        font-size: 2.8125rem;
+    }
+
+    .hero-sub-text{ 
+        width: 100%;
+    }
+
+    .rect{
+        width: 12.5rem !important;
+        height: 11.25rem !important;
+    }
+
+    .rect-small{
+        width: 12.5rem !important;
+        height: 8.75rem !important;
+    }
+
+    #products{
+        background-position: 55% 18rem;
+    }
+
+    .cta{
+        border-radius: 3.375rem;
+        padding-top: 4.625rem;
+        padding-bottom: 4.625rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-text{
+        font-size: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .service-wrapper{
+        flex-direction: column !important;
+    }
 }
