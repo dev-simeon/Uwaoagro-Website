@@ -15,18 +15,25 @@ body{
     color: var(--bg-secondary);
 }
 
-.rectangle-blob{
-    margin-top: 85px;
-    left: 3px;
+.section{
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
 }
 
-.section{
-    padding-top: 100px;
-    padding-bottom: 100px;
+.btn-primary{
+    background-color: var(--bg-accent);
+    color: #ffffff;
+    border-color: var(--bg-accent);
+}
+
+.btn-dark{
+    background-color: var(--bg-secondary);
+    color: #ffffff;
+    border-color: var(--bg-secondary);
 }
 
 .text-small{
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .text-primary{
@@ -38,7 +45,7 @@ body{
 }
 
 .contact{
-    border-bottom: 0.7px solid #656565;
+    border-bottom: 0.04375rem solid #656565;
 }
 
 #home{
@@ -54,23 +61,17 @@ body{
 }
 
 .hero-text{
-    font-size: 64px;
+    font-size: 4rem;
 }
 
 .hero-sub-text{ 
     width: 80%;
 }
 
-.btn-primary{
-    background-color: var(--bg-accent);
-    color: #ffffff;
-    border-color: var(--bg-accent);
-}
 
-.btn-dark{
-    background-color: var(--bg-secondary);
-    color: #ffffff;
-    border-color: var(--bg-secondary);
+.rectangle-blob{
+    margin-top: 5.3125rem;
+    left: 0.1875rem;
 }
 
 .services{
@@ -78,8 +79,8 @@ body{
 }
 
 .services-icon{
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 #products{
@@ -91,7 +92,7 @@ body{
 }
 
 .product-content{
-    max-width: 480px;
+    max-width: 30rem;
 }
 
 .second-rectangle{
@@ -99,23 +100,23 @@ body{
 }
 
 .cta-section{
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .cta{
-    border-radius: 70px;
+    border-radius: 4.375rem;
     background-color: var(--bg-cta);
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 5.625rem;
+    padding-bottom: 5.625rem;
 }
 
 footer{
     background-color: var(--bg-secondary);
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
     background-image: url(../images/Rectangle\ 5.svg);
     background-size: 20%;
     background-repeat: no-repeat;
-    background-position: 39.4% -134px;
+    background-position: 39.4% -8.375rem;
 }
