@@ -2,13 +2,13 @@ let navbar = document.querySelector(".navbar");
 let navLinks = document.querySelectorAll(".navlink-lg");
 let heroSection = document.querySelector("#home");
 
-window.addEventListener("load",() => {
-    ChangeNavbarAppearance();
-});
+// window.addEventListener("load",() => {
+//     ChangeNavbarAppearance();
+// });
 
-window.addEventListener("scroll",() => {
-    ChangeNavbarAppearance();
-});
+// window.addEventListener("scroll",() => {
+//     ChangeNavbarAppearance();
+// });
 
 // function ChangeNavbarAppearance() {
 //     if (heroSection.getBoundingClientRect().top <= -100) {
