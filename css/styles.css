@@ -157,8 +157,8 @@ footer{
     }
 
     #products{
-        background-size: 55%;
-        background-position: 55% 18rem;
+        background-size: 35rem;
+        background-position: 50% 8rem;
     }
 
     .cta{
@@ -203,4 +203,42 @@ footer{
         flex-direction: column !important;
     }
 
+}
+
+
+@media screen and (max-width: 531px) {
+    .product-image-wrapper{
+        margin-top: 2rem;
+        align-self: center !important;
+    }
+
+    .rect-wrapper{
+        gap: 0.7rem !important;
+    }
+
+    .second-rectangle{
+        margin-top: -2rem;
+    }
+
+    .rect{
+        width: 10.5rem !important;
+        height: 9.25rem !important;
+    }
+    
+    .rect-small{
+        width: 10.5rem !important;
+        height: 7rem !important;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .rect{
+        width: 8.5rem !important;
+        height: 8.5rem !important;
+    }
+
+    .rect-small{
+        width: 8.5rem !important;
+        height: 6rem !important;
+    }
 }
