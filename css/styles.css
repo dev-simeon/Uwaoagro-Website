@@ -123,7 +123,7 @@ footer{
     padding-bottom: 3.75rem;
     background-image: url(../images/footer-bg-image.svg), url(../images/footer-bg-image2.svg);
     background-repeat: no-repeat;
-    background-position: 39.4% -8.375rem, 63% 5rem;
+    background-position: 39.4% -8.375rem, 60% 8rem;
 }
 
 
@@ -157,6 +157,7 @@ footer{
     }
 
     #products{
+        background-size: 55%;
         background-position: 55% 18rem;
     }
 
@@ -167,11 +168,33 @@ footer{
         padding-left: 3rem;
         padding-right: 3rem;
     }
+
+    footer{
+        background-position: 35% -8.375rem, 70% 10rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .section,
+    .cta-section{
+        padding-top: 4.625rem;
+        padding-bottom: 4.625rem;
+    }
+
     .hero-text{
         font-size: 1.875rem;
+    }
+
+    footer{
+        background-position: -12% 3.375rem, 80% 15rem;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+
+    .contact-address{
+        width: 100%;
     }
 }
 
@@ -179,4 +202,5 @@ footer{
     .service-wrapper{
         flex-direction: column !important;
     }
+
 }
