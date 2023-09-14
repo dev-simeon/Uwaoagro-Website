@@ -138,6 +138,10 @@ footer{
 
 
 @media screen and (max-width: 992px) {
+    .hero-content{
+        width: 80%;
+    }
+
     .hero-text{
         font-size: 2.8125rem;
     }
@@ -181,6 +185,10 @@ footer{
         padding-bottom: 4.625rem;
     }
 
+    .hero-content{
+        width: 100%;
+    }
+
     .hero-text{
         font-size: 1.875rem;
     }
@@ -207,6 +215,7 @@ footer{
 
 
 @media screen and (max-width: 531px) {
+
     .product-image-wrapper{
         margin-top: 2rem;
         align-self: center !important;
