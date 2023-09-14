@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+
+:root{
+    --bg-primary: #fafff6;
+    --bg-secondary: #333333;
+    --bg-cta: #dff8ca;
+    --bg-accent: #6da74b;
+    --text-white:  #f8f8fa;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--bg-secondary);
+}
+
+.rectangle-blob{
+    margin-top: 85px;
+    left: 3px;
+}
+
+.section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.text-small{
+    font-size: 14px;
+}
+
+.text-primary{
+    color: var(--text-white) !important;
+}
+
+.bg-primary{
+    background-color: var(--bg-primary) !important;
+}
+
+.contact{
+    border-bottom: 0.7px solid #656565;
+}
+
+#home{
+    background-image: url(../images/hero-image.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+}
+
+.hero-content{
+    width: 60%;
+}
+
+.hero-text{
+    font-size: 64px;
+}
+
+.hero-sub-text{ 
+    width: 80%;
+}
+
+.btn-primary{
+    background-color: var(--bg-accent);
+    color: #ffffff;
+    border-color: var(--bg-accent);
+}
+
+.btn-dark{
+    background-color: var(--bg-secondary);
+    color: #ffffff;
+    border-color: var(--bg-secondary);
+}
+
+.services{
+    width: 17.7rem;
+}
+
+.services-icon{
+    width: 50px;
+    height: 50px;
+}
+
+#products{
+    background-color: #F8F8FA;
+    background-image: url(../images/SVG\ by\ MagicPattern.design\ \(2\).svg);
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: 97% 52%;
+}
+
+.product-content{
+    max-width: 480px;
+}
+
+.second-rectangle{
+    margin-top: -3rem;
+}
+
+.cta-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.cta{
+    border-radius: 70px;
+    background-color: var(--bg-cta);
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+footer{
+    background-color: var(--bg-secondary);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url(../images/Rectangle\ 5.svg);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 39.4% -134px;
+}
