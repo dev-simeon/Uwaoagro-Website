@@ -75,6 +75,12 @@ body{
     width: 350px !important;
 }
 
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover,
+.navbar-nav a.nav-link:active {
+    font-weight: 700;
+}
+
 #home{
     background-image: url(../images/hero-img-overlay.svg);
     background-position: bottom;
@@ -241,7 +247,6 @@ footer{
 
 
 @media screen and (max-width: 531px) {
-
     .product-image-wrapper{
         margin-top: 2rem;
         align-self: center !important;
