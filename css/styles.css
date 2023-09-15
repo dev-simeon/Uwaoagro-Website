@@ -245,6 +245,17 @@ footer{
 
 }
 
+@media screen and (max-width: 575px) {
+    .h3{
+        font-size: 1.25rem;
+    }
+
+    .cta{
+        border-radius: 2rem;
+        padding: 3.3rem;
+    }
+}
+
 
 @media screen and (max-width: 531px) {
     .product-image-wrapper{
