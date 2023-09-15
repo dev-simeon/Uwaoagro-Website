@@ -2,6 +2,7 @@ let navbar = document.querySelector(".navbar");
 let navLinks = document.querySelectorAll(".navlink-lg");
 let brand = document.querySelector(".navbar-brand");
 let iconWhite = document.querySelectorAll(".icon-white");
+let menu = document.querySelectorAll(".menu");
 let dot = document.querySelector(".rounded-circle");
 let iconDark = document.querySelectorAll(".icon-dark");
 let heroSection = document.querySelector("#home");
@@ -26,6 +27,8 @@ function ChangeNavbarAppearance() {
         iconDark.forEach(i => {
             i.classList.remove("d-none");
         })
+        menu[0].classList.add("d-none");
+        menu[1].classList.remove("d-none");
         iconWhite.forEach(i => {
             i.classList.add("d-none");
         })
@@ -41,6 +44,8 @@ function ChangeNavbarAppearance() {
         iconDark.forEach(i => {
             i.classList.add("d-none");
         })
+        menu[0].classList.remove("d-none");
+        menu[1].classList.add("d-none");
         iconWhite.forEach(i => {
             i.classList.remove("d-none");
         })

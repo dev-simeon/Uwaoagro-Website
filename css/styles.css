@@ -27,10 +27,28 @@ body{
     border-color: var(--bg-accent);
 }
 
+.btn-primary:hover,
+.btn-primary:active
+{
+    background-color: var(--bg-accent) !important;
+    opacity: 0.9;
+    border-color: var(--bg-accent) !important;
+    color: #ffffff !important;
+}
+
 .btn-dark{
     background-color: var(--bg-secondary);
     color: #ffffff;
     border-color: var(--bg-secondary);
+}
+
+.btn-dark:hover,
+.btn-dark:active
+{
+    background-color: var(--bg-secondary) !important;
+    opacity: 0.9;
+    border-color: var(--bg-secondary) !important;
+    color: #ffffff !important;
 }
 
 .text-small{
@@ -51,6 +69,10 @@ body{
 
 .contact{
     border-bottom: 0.04375rem solid #656565;
+}
+
+.offcanvas.offcanvas-end{
+    width: 350px !important;
 }
 
 #home{
