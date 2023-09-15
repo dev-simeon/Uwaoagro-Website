@@ -95,11 +95,11 @@ body{
 }
 
 .hero-text{
-    font-size: 4rem;
+    font-size: 3.25rem;
 }
 
 .hero-sub-text{ 
-    width: 80%;
+    width: 70%;
 }
 
 
@@ -130,6 +130,11 @@ body{
     max-width: 30rem;
 }
 
+.overlay{
+    background-color: var(--bg-secondary);
+    mix-blend-mode: overlay;
+}
+
 .second-rectangle{
     margin-top: -3rem;
 }
@@ -153,6 +158,10 @@ footer{
     background-image: url(../images/footer-bg-image.svg), url(../images/footer-bg-image2.svg);
     background-repeat: no-repeat;
     background-position: 39.4% -8.375rem, 60% 8rem;
+}
+
+.footer-heading{
+    font-size: 1.125rem;
 }
 
 
@@ -246,6 +255,10 @@ footer{
 }
 
 @media screen and (max-width: 575px) {
+    .overlay{
+        font-size: 1rem;
+    }
+
     .h3{
         font-size: 1.25rem;
     }

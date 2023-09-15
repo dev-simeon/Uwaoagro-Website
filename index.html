@@ -75,7 +75,7 @@
 
 
     <!-- offcanvas menu -->
-    <div class="offcanvas offcanvas-end" data-bs-backdrop="static" id="navmenu">
+    <div class="offcanvas offcanvas-end" data-bs-backdrop="static" data-bs-scroll="true" id="navmenu">
         <div class="offcanvas-header pe-5 pt-4 justify-content-end mt-1">
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" 
                 aria-label="Close">
@@ -84,7 +84,7 @@
         <div class="offcanvas-body align-items-center px-4 d-flex flex-column gap-4">
             <ul class="navbar-nav gap-3">
                 <li class="nav-item">
-                    <a class="nav-link py-0 fw-bold" aria-current="page" 
+                    <a class="nav-link py-0 active" aria-current="page" 
                         href="#home">Home
                     </a>
                 </li>
@@ -181,13 +181,13 @@
                     <div class="d-flex flex-column gap-3 rect-wrapper">
                         <div style="width: 250px; height: 260px; background-color: #d9d9d9;" 
                             class=" rounded-4 rect">
-                            <div style="color: #8a8f86;" class="w-100 h-100 h5 text-center d-flex justify-content-center 
+                            <div class="w-100 text-primary h-100 overlay h5 text-center d-flex justify-content-center 
                                 align-items-center mb-0">Fertilizers
                             </div>
                         </div>
                         <div style="width: 250px; height: 155px; background-color: #d9d9d9;" 
                             class="rounded-4 rect-small">
-                            <div style="color: #8a8f86;" class="w-100 h-100 h5 text-center d-flex justify-content-center 
+                            <div class="w-100 text-primary h-100 overlay h5 text-center d-flex justify-content-center 
                                 align-items-center mb-0">Seedlings
                             </div>
                         </div>  
@@ -195,13 +195,13 @@
                     <div class="d-flex flex-column gap-3 second-rectangle rect-wrapper">
                         <div style="width: 250px; height: 155px; background-color: #d9d9d9;" 
                             class="rounded-4 rect-small">
-                            <div style="color: #8a8f86;" class="w-100 h-100 h5 text-center d-flex justify-content-center 
+                            <div class="w-100 text-primary h-100 overlay h5 text-center d-flex justify-content-center 
                                 align-items-center mb-0">Farm Tools
                             </div>
                         </div>  
                         <div style="width: 250px; height: 260px; background-color: #d9d9d9;" 
                             class="rounded-4 rect">
-                            <div style="color: #8a8f86;" class="w-100 h-100 h5 text-center d-flex justify-content-center 
+                            <div class="w-100 text-primary h-100 overlay h5 text-center d-flex justify-content-center 
                                 align-items-center mb-0">Pesticides and Herbicides
                             </div>
                         </div>
@@ -225,7 +225,7 @@
         <footer id="contactUs" class="d-flex flex-column px-4 px-md-0 gap-5 align-items-center">
             <div class="footer d-flex flex-column flex-md-row gap-3 justify-content-center">
                 <div class="d-flex flex-column gap-1 col-md-4 contact-address">
-                    <h5 class="mb-0 fw-bold text-primary">Address:</h5>
+                    <h6 class="mb-0 fw-bold text-primary footer-heading">Address:</h6>
                     <div class="d-flex gap-1 align-items-start">
                         <img class="img-fluid" src="images/carbon_location.svg" alt="location-icon">
                         <p class="mb-0 text-primary">No 2 General Hospital Road Eke Ekwulobia Aguata, 
@@ -235,7 +235,7 @@
                 </div>
     
                 <div class="d-flex flex-column gap-1">
-                    <h5 class="mb-0 fw-bold text-primary">Phone:</h5>
+                    <h6 class="mb-0 fw-bold text-primary footer-heading">Phone:</h6>
                     <div class="d-flex gap-1 align-items-start">
                         <img class="img-fluid" src="images/ph_phone.svg" alt="phone-icon">
                         <p class="mb-0">
@@ -248,7 +248,7 @@
                 </div>
     
                 <div class="d-flex flex-column gap-1">
-                    <h5 class="mb-0 fw-bold text-primary">Email:</h5>
+                    <h6 class="mb-0 fw-bold text-primary footer-heading">Email:</h6>
                     <div class="d-flex gap-1 align-items-start">
                         <img class="img-fluid" src="images/iconamoon_email-light.svg" alt="email-icon">
                         <p class="mb-0">
