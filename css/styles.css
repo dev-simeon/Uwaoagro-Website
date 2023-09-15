@@ -59,10 +59,11 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     height: 75vh;
+    min-height: 34.375rem;
 }
 
 .hero-content{
-    width: 60%;
+    width: 80%;
 }
 
 .hero-text{
@@ -136,18 +137,17 @@ footer{
 
 /***************************************** Mobile Design *******************************************/
 
-
-@media screen and (max-width: 992px) {
-    .hero-content{
-        width: 80%;
+@media screen and (min-width: 1600px) {
+    #home{
+        width: 90rem;
+        margin-inline: auto;
+        max-height: 62.5rem;
     }
+}
 
+@media screen and (max-width: 991px) {
     .hero-text{
         font-size: 2.8125rem;
-    }
-
-    .hero-sub-text{ 
-        width: 100%;
     }
 
     .rect{
@@ -178,7 +178,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .section,
     .cta-section{
         padding-top: 4.625rem;
@@ -191,6 +191,10 @@ footer{
 
     .hero-text{
         font-size: 1.875rem;
+    }
+
+    .hero-sub-text{
+        width: 100%;
     }
 
     footer{
