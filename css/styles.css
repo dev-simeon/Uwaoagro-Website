@@ -138,14 +138,39 @@ body{
     max-width: 30rem;
 }
 
-.overlay{
-    background-color: var(--bg-secondary);
-    mix-blend-mode: overlay;
+.rect>img{
+    transition: all 1s ease;
+}
+
+.rect-small>img{
+    transition: all 1s ease;
+}
+
+.fertilizer:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.seedlings:hover{
+    cursor: pointer;
+    transform: scale(1.5);
 }
 
 .second-rectangle{
     margin-top: -3rem;
 }
+
+.farm-tools:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.agro-chemicals:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+
 
 .cta-section{
     padding-top: 5rem;
