@@ -138,39 +138,21 @@ body{
     max-width: 30rem;
 }
 
-.rect>img{
+.product-img{
+    background-color: var(--bg-primary);
     transition: all 1s ease;
 }
 
-.rect-small>img{
-    transition: all 1s ease;
-}
-
-.fertilizer:hover{
-    cursor: pointer;
+.product-img:hover{
+    object-fit: scale-down;
     transform: scale(1.5);
 }
 
-.seedlings:hover{
-    cursor: pointer;
-    transform: scale(1.5);
+.overlay{
+    background-color: #6e746eab;
+    opacity: 0.7;
+    border-radius: 1rem;
 }
-
-.second-rectangle{
-    margin-top: -3rem;
-}
-
-.farm-tools:hover{
-    cursor: pointer;
-    transform: scale(1.5);
-}
-
-.agro-chemicals:hover{
-    cursor: pointer;
-    transform: scale(1.5);
-}
-
-
 
 .cta-section{
     padding-top: 5rem;
