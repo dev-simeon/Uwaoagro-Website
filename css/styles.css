@@ -138,19 +138,18 @@ body{
     max-width: 30rem;
 }
 
-.product-img{
+.product-image-wrapper>img{
     background-color: var(--bg-primary);
     transition: all 1s ease;
 }
 
-.product-img:hover{
-    object-fit: scale-down;
+.product-image-wrapper:hover>img{
     transform: scale(1.5);
 }
 
 .overlay{
     background-color: #6e746eab;
-    opacity: 0.7;
+    opacity: 0.5;
     border-radius: 1rem;
 }
 
@@ -198,6 +197,10 @@ footer{
 }
 
 @media screen and (max-width: 991px) {
+    .h5{
+        font-size: 1.125rem;
+    }
+
     .hero-text{
         font-size: 2.8125rem;
     }
@@ -237,6 +240,7 @@ footer{
         padding-bottom: 4.625rem;
     }
 
+
     .hero-content{
         width: 100%;
     }
@@ -270,7 +274,7 @@ footer{
 }
 
 @media screen and (max-width: 575px) {
-    .overlay{
+    .h5{
         font-size: 1rem;
     }
 
@@ -286,7 +290,7 @@ footer{
 
 
 @media screen and (max-width: 531px) {
-    .product-image-wrapper{
+    .product-wrapper{
         margin-top: 2rem;
         align-self: center !important;
     }
