@@ -110,7 +110,6 @@ body{
     width: 70%;
 }
 
-
 .rectangle-blob{
     margin-top: 5.3125rem;
     left: 0.1875rem;
@@ -136,6 +135,10 @@ body{
 
 .product-content{
     max-width: 30rem;
+}
+
+.product-image-wrapper{
+    cursor: pointer;
 }
 
 .product-image-wrapper>img{
