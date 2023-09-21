@@ -22,6 +22,10 @@ body{
     padding-bottom: 6.25rem;
 }
 
+.btn{
+    font-weight: 600;
+}
+
 .btn-primary{
     background-color: var(--bg-accent);
     color: #ffffff;
@@ -151,7 +155,7 @@ body{
 }
 
 .overlay{
-    background-color: #6e746eab;
+    background-color: #164c2069;
     border-radius: 1rem;
 }
 
